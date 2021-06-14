@@ -2,11 +2,16 @@
 PFCF Language
 #############
 
-Python For Change Format Language allows to easily integrate different Python For Change Ecosystem functionalities
+Python For Change Format Language allows to easily integrate different Python For Change Ecosystem functionalities.
+
 PFCF is a flexible marked language which allows to implement Python For Change solutions to several problems.
+
 PFCF Language is written 100% in python and allows to write in python.
+
 Then, PFCF can improve it itselft. That allows PFCF to get new special commands everyday.
+
 PFCF have special eigen command that simplify the development of qiskit code.
+
 
 
 
