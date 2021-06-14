@@ -214,7 +214,7 @@ v2.0.2 or upper:
 
 Then, log1_1.pfcf is read and printed.
 
-      :raw-html:`<br />` ::
+      ::
 
 Finally, `1` is append to log1_hist.pfcf file.
 
@@ -373,7 +373,8 @@ The aesthetic result will be the same:
     
     This is a a line in the same paragraph, which looks like another paragraph ::
 
-Note we use the "\\" symbol in order to Pyfoch do not recognize the comma like a new line command. In general, we say that the "\\" symbol scapes the next character. 
+Note we use the "\\" symbol in order to Pyfoch do not recognize the comma like a new line command. :raw-html:`<br />`
+In general, we say that the "\\" symbol scapes the next character. 
 
 ##################
 Insertion commands
