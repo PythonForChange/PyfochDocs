@@ -351,6 +351,47 @@ The aesthetic result will be the same:
 
 Note we use the "\\" symbol in order to Pyfoch do not recognize the comma like a new line command. In general, we say that the "\\" symbol scapes the next character. 
 
+##################
+Insertion commands
+##################
 
+Adding code written in Python
+*****************************
+
+Write the text between the labels "<python>" and "</python>".
+Pyfoch will recognize it like Python code.
+
+    <python>
+    print("Hello World")
+    </python>::
+
+Our exported file will be something like this:
+
+    print("Hello World")
+
+This will be useful when you domain changeability commands.
+Changeability commands are further explored below.
+
+Adding code written in Wolfram Language
+***************************************
+
+Write the text between the labels "<wolfram>" and "</wolfram>".
+Pyfoch will recognize it like Wolfram Language code.
+
+    <wolfram>
+    Range[5]
+    </wolfram>::
+
+Our exported file will be something like this:
+
+    Range[5]::
+
+In general, if "alanguage" is a supported programming language, write the text between the labels "<alanguage>" and "</alanguage>" in order to Pyfoch recognize it like "alanguage" code.
+
+#################################
+Introduction to the changeability
+#################################
+
+The heart of PFCF language is the changeability. Changeable code has a marked tendency to change; "the changeableness of the weather"
 
 
