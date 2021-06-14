@@ -392,6 +392,6 @@ In general, if "alanguage" is a supported programming language, write the text b
 Introduction to the changeability
 #################################
 
-The heart of PFCF language is the changeability. Changeable code has a marked tendency to change; "the changeableness of the weather"
+The heart of PFCF language is the changeability. Changeable code has a marked tendency to change. PFCF use the changeability in order to improve the efficience in the coding development experience.
 
 
