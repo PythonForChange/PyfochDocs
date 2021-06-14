@@ -74,13 +74,13 @@ Example
     ~
     a new lang...,
     a new experience...,
-    Welcome to the future,:),|
+    Welcome to the future,\:),|
     
-    May 10 2021\, 13:45,
+    May 10 2021\\, 13\:45,
     by Eanorambuena,|
     
-    Add code like this:,|
-    \<qiskit\>,
+    Add code like this\:,|
+    \\<qiskit\\>,
     q0  q1,
         X,
     H,
@@ -89,15 +89,15 @@ Example
     $host qasm_simulator,
     $hist true,
     $draw true,
-    \</qiskit\>\,,
+    \\</qiskit\\>\\,,
     |
-    \<python\>,
+    \\<python\\>,
     print(\"hello world\"),
-    \</python\>\,,
+    \\</python\\>\\,,
     |
-    \<wolfram\>,
+    \\<wolfram\\>,
     Range[5],
-    \</wolfram\>\,, ::
+    \\</wolfram\\>\\,, ::
 
 
 3. In "File" menu, click on "Export".
@@ -117,12 +117,12 @@ Example
     a new lang...
     a new experience...
     Welcome to the future
-    :)
+    \:)
 
     May 10 2021, 13:45
     by Eanorambuena
     
-    Add code like this:
+    Add code like this\:
     
     <qiskit>
     q0  q1
@@ -170,10 +170,10 @@ Import pfcf and give the instructions.
     
     l=LogFile("log1")
     l.row("hello[") #this [ can not be printed
-    l.row("world\"") #this " can not be printed
+    l.row("world\\"") #this " can not be printed
     l.section() #break
     l.row("hello"+l.vip("[")) #this [ can be printed
-    l.row("world"+l.vip("\"")) #this " can be printed
+    l.row("world"+l.vip("\\"")) #this " can be printed
     l.section() #break
     l.row("by Eanorambuena"+l.den("this text can not be printed"))
     l.read()
@@ -182,7 +182,7 @@ First, log1_0.pfcf file is made.
 
 v2.0.2 or upper:
 
-    hello[,world",|hello\[,world\",|by Eanorambuena~this text can not be printed~, ::
+    hello[,world",|hello\\[,world\\",|by Eanorambuena~this text can not be printed~, ::
 
 Then, log1_0.pfcf is read and printed.
 
@@ -203,7 +203,7 @@ Example 2
 
 .. code-block:: python
     l.reset()
-    l.p.den=":"
+    l.p.den="\:"
     l.row(l.den("this text can not be printed"))
     l.read()
  
@@ -211,7 +211,7 @@ First, log1_1.pfcf file is made.
 
 v2.0.2 or upper:
 
-    :this text can not be printed:, ::
+    \:this text can not be printed\:, ::
 
 Then, log1_1.pfcf is read and printed.
 
@@ -229,47 +229,47 @@ Example 3
     data = {}
     data['clients'] = []
     data['clients'].append({
-        'first_name': 'Sigrid',
-        'last_name': 'Mannock',
-        'age': 27,
-        'amount': 7.17})
+        'first_name'\: 'Sigrid',
+        'last_name'\: 'Mannock',
+        'age'\: 27,
+        'amount'\: 7.17})
     data['clients'].append({
-        'first_name': 'Joe',
-        'last_name': 'Hinners',
-        'age': 31,
-        'amount': [1.90, 5.50]})
+        'first_name'\: 'Joe',
+        'last_name'\: 'Hinners',
+        'age'\: 31,
+        'amount'\: [1.90, 5.50]})
     data['clients'].append({
-        'first_name': 'Theodoric',
-        'last_name': 'Rivers',
-        'age': 36,
-        'amount': 1.11})
+        'first_name'\: 'Theodoric',
+        'last_name'\: 'Rivers',
+        'age'\: 36,
+        'amount'\: 1.11})
     l2=LogFile("log2")
     l2.fromDict(data)
 
 First, log2.json file is made.
 
     {
-        "clients": [
+        "clients"\: [
             {
-                "first_name": "Sigrid",
-                "last_name": "Mannock",
-                "age": 27,
-                "amount": 7.17
+                "first_name"\: "Sigrid",
+                "last_name"\: "Mannock",
+                "age"\: 27,
+                "amount"\: 7.17
             },
             {
-                "first_name": "Joe",
-                "last_name": "Hinners",
-                "age": 31,
-                "amount": [
+                "first_name"\: "Joe",
+                "last_name"\: "Hinners",
+                "age"\: 31,
+                "amount"\: [
                     1.9,
                     5.5
                 ]
             },
             {
-                "first_name": "Theodoric",
-                "last_name": "Rivers",
-                "age": 36,
-                "amount": 1.11
+                "first_name"\: "Theodoric",
+                "last_name"\: "Rivers",
+                "age"\: 36,
+                "amount"\: 1.11
             }
         ]
     } ::
@@ -277,26 +277,26 @@ First, log2.json file is made.
 Then, log2.json is read as a .pfcf file.
 Finally, it is printed.
 
-        clients: 
+        clients\: 
             
-                first_name: Sigrid
+                first_name\: Sigrid
     
-                last_name: Mannock
+                last_name\: Mannock
     
-                age: 27
+                age\: 27
     
-                amount: 7.17
+                amount\: 7.17
             
     
             
-                first_name: Joe
+                first_name\: Joe
     
-                last_name: Hinners
+                last_name\: Hinners
     
-                age: 31
+                age\: 31
     
     
-                amount: 
+                amount\: 
                     1.9
     
                     5.5
@@ -304,11 +304,11 @@ Finally, it is printed.
             
     
             
-                first_name: Theodoric
+                first_name\: Theodoric
     
-                last_name: Rivers
+                last_name\: Rivers
     
-                age: 36 ::
+                age\: 36 ::
                 
 ##############
 Style commands
