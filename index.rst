@@ -211,7 +211,7 @@ First, log1_1.pfcf file is made.
 
 v2.0.2 or upper:
 
-:this text can not be printed:, ::
+    :this text can not be printed:, ::
 
 Then, log1_1.pfcf is read and printed.
 
@@ -340,7 +340,7 @@ Our exported file will be something like this:
 
 We can also write the comma symbol twice, but Pyfoch will not recognize it like a new paragraph.
 
-    This is a paragraph,,This is a a line in the same paragraph\, which looks like another paragraph ::
+    This is a paragraph,,This is a a line in the same paragraph\\, which looks like another paragraph ::
 
 The aesthetic result will be the same:
 
@@ -348,7 +348,7 @@ The aesthetic result will be the same:
     
     This is a a line in the same paragraph, which looks like another paragraph ::
 
-Note we use the "\" symbol in order to Pyfoch do not recognize the comma like a new line command. In general, we say that the "\" symbol scapes the next character. 
+Note we use the "\\" symbol in order to Pyfoch do not recognize the comma like a new line command. In general, we say that the "\\" symbol scapes the next character. 
 
 
 
