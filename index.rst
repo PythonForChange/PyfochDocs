@@ -80,6 +80,7 @@ Example
     by Eanorambuena,|
     
     Add code like this\:,|
+    
     \\<qiskit\\>,
     q0  q1,
         X,
