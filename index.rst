@@ -11,6 +11,10 @@ Sofware (for developers)
 `Get the last version of this software here <https://github.com/PythonForChange/FilesFormat>`__
 
 
+###########
+Quick Start
+###########
+
 Installation (last stable version)
 **********************************
 
@@ -287,3 +291,8 @@ Finally, it is printed.
                 last_name: Rivers
     
                 age: 36 ::
+                
+##############
+Style commands
+##############
+
