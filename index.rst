@@ -5,12 +5,12 @@ PFCF Language
 About PFCF
 **********
 
-PFCF is a flexible marked language which allows to implement Python For Change solutions to several problems.
+
+Python For Change Format is a flexible marked language which allows to implement Python For Change solutions to several problems.
 
 Python For Change Ecosystem easy integration
 ============================================
-
-Python For Change Format Language allows to easily integrate different Python For Change Ecosystem functionalities.
+PFCF Language allows to easily integrate different Python For Change Ecosystem functionalities.
 
 
 Advantages
@@ -26,7 +26,7 @@ Advantages
 Sofware (for developers)
 ************************
 
-`Get the last version of this software here <https://github.com/PythonForChange/FilesFormat>`__
+Get the last version of this software here <https://github.com/PythonForChange/FilesFormat>`__
 
 
 ###########
@@ -314,3 +314,12 @@ Finally, it is printed.
 Style commands
 ##############
 
+Adding a new line
+*****************
+Add the comma symbol to create a new line.
+    This is a line,This is other line ::
+
+Paragraphs
+**********
+Add the vertical line symbol to create a new paragraph. Always we must write a comma before the vertical line symbol.
+    This is a paragraph,|This is other paragraph ::
