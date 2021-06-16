@@ -424,4 +424,13 @@ Introduction to the changeability
 The heart of PFCF language is the changeability. Changeable code has a marked tendency to change. :raw-html:`<br />`
 PFCF use the changeability in order to improve the efficience in the coding development experience.
 
+Add the "$" symbol to write a new changeability command. For example, let's say Pyfoch we want to start a new text block.
+
+    $block begin ::
+
+The general sintaxis is simple:
+
+    $command parameter ::
+
+Always we must write in a new line after writting a changeability command.
 
