@@ -379,6 +379,30 @@ The aesthetic result will be the same:
 Note we use the "\\" symbol in order to Pyfoch do not recognize the comma like a new line command. :raw-html:`<br />`
 In general, we say that the "\\" symbol scapes the next character. 
 
+Adding a new block of text
+**************************
+
+Write the text between the labels "$block begin" and "$block end". :raw-html:`<br />`
+Pyfoch will recognize it like Python code.
+
+    This is a common line.,| :raw-html:`<br />`
+    $block begin :raw-html:`<br />`
+    This is a line in a block of text.,| :raw-html:`<br />`
+    $block end :raw-html:`<br />`
+    This is another common line ::
+
+Our exported file will be something like this:
+
+    This is a common line.
+    
+      This is a line in a block of text.
+      
+    This is another common line ::
+
+$block begin" and "$block end" are both changeability commands. :raw-html:`<br />`
+Changeability commands are further explored below.
+
+
 ##################
 Insertion commands
 ##################
@@ -437,3 +461,17 @@ The general sintaxis is simple:
 
 Always we must write in a new line after writting a changeability command.
 
+####################################
+Writting IBM Qiskit code with Pyfoch
+####################################
+
+PFCF have special eigen commands that simplify the development of code with IBM Qiskit.
+
+Write the text between the labels "<qiskit>" and "</qiskit>". :raw-html:`<br />`
+Pyfoch will recognize it like Pyfoch IBM Qiskit special commands.
+
+    <qiskit>
+    :raw-html:`<br />`
+    "Your code"
+    :raw-html:`<br />`
+    </qiskit>::
