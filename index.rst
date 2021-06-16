@@ -30,6 +30,9 @@ Sofware (for developers)
 
 Get the last version of this software here <https://github.com/PythonForChange/FilesFormat>`__
 
+.. image:: https://readthedocs.org/projects/pyfoch/badge/?version=latest
+:target: https://pyfoch.readthedocs.io/en/latest/?badge=latest
+:alt: Documentation Status
 
 ###########
 Quick Start
