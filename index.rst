@@ -22,7 +22,7 @@ Advantages
 
 1. PFCF Language is written 100% in python and allows to write in python. :raw-html:`<br />`
 2. Then, PFCF can improve it itselft. That allows PFCF to get new special commands everyday. :raw-html:`<br />`
-3. PFCF have special eigen commands that simplify the development of code with IBM Qiskit.
+3. PFCF have special eigen commands (NQS scripts) that simplify the development of code with IBM Qiskit. This scripts are currently deprecated. [Learn more about NQS here.](https://nqs.rtfd.io)
 
 
 Sofware (for developers)
@@ -460,13 +460,14 @@ The general sintaxis is simple:
 Always we must write in a new line after writting a changeability command.
 
 ####################################
-Writting IBM Qiskit code with Pyfoch
+Writting NQS code with Pyfoch
 ####################################
 
-PFCF have special eigen commands that simplify the development of code with IBM Qiskit.
+PFCF suports Natural Quantum Script code, language that simplifies the quantum code development. :raw-html:`<br />`
+This scripts are currently deprecated. [Learn more about NQS here](https://nqs.rtfd.io)
 
-Write the text between the labels "<qiskit>" and "</qiskit>". :raw-html:`<br />`
-Pyfoch will recognize it like Pyfoch IBM Qiskit special commands.
+NQS is first-based in IBM qiskit. Write the text between the labels "<qiskit>" and "</qiskit>". :raw-html:`<br />`
+Pyfoch will recognize it like NQS commands. 
 
     <qiskit>
     :raw-html:`<br />`
